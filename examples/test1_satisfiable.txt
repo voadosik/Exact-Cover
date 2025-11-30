@@ -1,0 +1,4 @@
+Universe: x y z
+A: x y
+B: y z
+C: x
