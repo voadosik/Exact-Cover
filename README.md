@@ -9,17 +9,17 @@ It should satisfy the following properties:
 Example of a valid exact cover:
 
 ```
-$S = \{A, B, C, D, E, F\}$
-$X = \{1, 2, 3, 4, 5, 6, 7\}$
+S = {A, B, C, D, E, F}
+X = {1, 2, 3, 4, 5, 6, 7}
 
-$A = \{1, 4, 7\}$
-$B = \{1, 4\}$
-$C = \{4, 5, 7\}$
-$D = \{3, 5, 6\}$
-$E = \{2, 3, 6, 7\}$
-$F = \{2, 7\}$
+A = {1, 4, 7}
+B = {1, 4}
+C = {4, 5, 7}
+D = {3, 5, 6}
+E = {2, 3, 6, 7}
+F = {2, 7}
 
-Where $S^* = \{B, D, F\}$
+Where S* = {B, D, F}
 ```
 
 How to use:
