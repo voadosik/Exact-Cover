@@ -31,7 +31,7 @@ To ensure that every element in the universe is covered, the encoder iterates th
 For each element $e$, a clause is added consisting of all subsets $S_i, S_j...$ that contain $e$:
 $$S_i \lor S_j \lor \dots$$
 
-or in DIMACS CNF (positive integers):
+or in DIMACS CNF:
 `i j ... 0`
 
 
@@ -42,7 +42,7 @@ To ensure that no element is covered more than once (intersection of any two sub
 For each element $e$, if it appears in both subset $S_i$ and subset $S_j$, they cannot both be selected:
 $$\neg S_i \lor \neg S_j$$
 
-or in DIMACS CNF (negative integers):
+or in DIMACS CNF:
 `-i -j 0`
 
 ---
@@ -53,6 +53,8 @@ The CNF formula is output in DIMACS format:
 * The header specifies the number of variables and clauses: `p cnf <num_variables> <num_clauses>`.
 * Each line represents a clause ending with 0.
 
+
+## User Documentation
 
 How to use:
 
