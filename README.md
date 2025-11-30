@@ -73,4 +73,40 @@ Example:
 python exact_cover.py -i examples/test1_satisfiable.txt -o formula.cnf -s glucose-syrup -v 1
 ```
 
+## Instances overview
+
+### 1. Small Satisfiable Instance (`test1_satisfiable.txt`)
+
+```text
+Universe: x y z
+A: x y
+B: y z
+C: x
+```
+Subsets B (y z) and C (x) form a valid solution.
+
+### 2. Bigger Satisfiable Instance (`test2_satisfiable.txt`)
+
+```text
+Universe: 1 2 3 4 5 6 7
+A: 1 4 7
+B: 1 4
+C: 4 5 7
+D: 3 5 6
+E: 2 3 6 7
+F: 2 7
+```
+Subsets B (1 4), D (3 5 6) and F (2 7) form a valid solution.
+
+### 3. Unsatisfiable Instance (`test3_satisfiable.txt`)
+
+```text
+Universe: x y z
+A: x y
+B: y z
+C: x z
+```
+Any selection of two subsets results in an overlap (A and B overlap on y, B and C overlap on z), and no single subset covers the entire universe.
+Therefore it's unsatisfiable.
+
 
