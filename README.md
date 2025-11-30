@@ -8,6 +8,7 @@ It should satisfy the following properties:
 
 Example of a valid exact cover:
 
+```
 $S = \{A, B, C, D, E, F\}$
 $X = \{1, 2, 3, 4, 5, 6, 7\}$
 
@@ -19,6 +20,7 @@ $E = \{2, 3, 6, 7\}$
 $F = \{2, 7\}$
 
 Where $S^* = \{B, D, F\}$
+```
 
 How to use:
 
