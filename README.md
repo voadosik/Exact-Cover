@@ -28,11 +28,11 @@ How to use:
 python exact_cover.py [-h] [-i INPUT] [-o OUTPUT] [-s SOLVER] [-v {0,1}]
 ```
 
--h, --help            show this help message and exit
--i, --input           The instance file.
--o, --output          Output file for the DIMACS format (i.e. the CNF formula).
--s, --solver          The SAT solver to be used.
--v, --verb            Verbosity of the SAT solver used.
+- -h, --help            show this help message and exit
+- -i, --input           The instance file.
+- -o, --output          Output file for the DIMACS format (i.e. the CNF formula).
+- -s, --solver          The SAT solver to be used.
+- -v, --verb            Verbosity of the SAT solver used.
 
 Example:
 ```bash
