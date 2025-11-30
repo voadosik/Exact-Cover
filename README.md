@@ -1,10 +1,10 @@
 # Exact-Cover
 
 Exact Cover is a problem where we need to select subsets from a given set of subsets in such a way that every element appears exactly once. 
-More formally: Given a collection $S$ of subsets of set $X$, an exact cover is the subset $S^*$ of $S$ such that each element of $X$ is contained is exactly one subset of $S^*$.
+More formally: Given a collection S of subsets of set X, an exact cover is the subset S* of S such that each element of X is contained is exactly one subset of S*.
 It should satisfy the following properties:
-- Intersection of any two subsets in $S^*$ is empty
-- Union of all subsets in $S^*$ is equal to $X$
+- Intersection of any two subsets in S* is empty
+- Union of all subsets in S* is equal to X
 
 Example of a valid exact cover:
 
